@@ -158,11 +158,23 @@
         padding-top: 3%;
         text-decoration: underline;
     }
-    buttons img {
+    #buttons img {
         width: 30%;
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+    #droid {
+        background-image: url(../img/droid.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 20%;
+        margin-right: 2%;
+        width: 10%;
+        display: inline-block;
+    }
+    #droid:hover {
+        background-image: url(../img/droidhover.png);
     }
 }
 @media screen and (min-width: 1000px) {
