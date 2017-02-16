@@ -39,11 +39,64 @@
         font-size: 2.5em;
         font-family: 'headerfont', sans-serif;
         padding: 0% 2%;
-        color: #e7e7e7:inherit;
+        color: #e7e7e7;
     }
-    nav ul li:hover{
-        color:#ffffff;
+    nav ul li:hover {
+        color: #ffffff;
         background-color: #0e5813;
+    }
+    #colors {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;
+        background-color: #ffffff;
+    }
+    #colors h2 {
+        color: #000000;
+        padding-bottom: 1%;
+        font-family: 'logo', sans-serif;
+        font-size: 2.8em;
+        text-align: center;
+        text-decoration: underline;
+    }
+    #colorWhite {
+        width: 19%;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 7% 0%;
+        display: inline-block;
+    }
+    #colorTan {
+        width: 19%;
+        background-color: #e7e7e7;
+        text-align: center;
+        padding: 7% 0%;
+        display: inline-block;
+    }
+    #colorGray {
+        width: 19%;
+        background-color: #d0d0d0;
+        text-align: center;
+        padding: 7% 0%;
+        display: inline-block;
+    }
+    #colorBrown {
+        width: 19%;
+        background-color: #0e5813;
+        color: #ffffff;
+        text-align: center;
+        padding: 7% 0%;
+        display: inline-block;
+    }
+    #colorBlack {
+        width: 19%;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding: 7% 0%;
+        display: inline-block;
     }
 }
 @media screen and (min-width: 1000px) {
