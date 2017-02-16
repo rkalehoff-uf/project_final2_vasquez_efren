@@ -176,6 +176,17 @@
     #droid:hover {
         background-image: url(../img/droidhover.png);
     }
+    #tattoine {
+        background-image: url(../img/tattoine.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 20%;
+        width: 15%;
+        display: inline-block;
+    }
+    #tattoine:hover {
+        background-image: url(../img/tattoine2.png);
+    }
 }
 @media screen and (min-width: 1000px) {
 
