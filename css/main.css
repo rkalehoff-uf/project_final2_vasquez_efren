@@ -98,6 +98,35 @@
         padding: 7% 0%;
         display: inline-block;
     }
+    #filler {
+        background-color: #e7e7e7;
+        padding-bottom: 5%;
+    }
+    #filler h1 {
+        font-family: 'logo', sans-serif;
+        font-size: 2.2em;
+        text-align: center;
+        letter-spacing: 0.3em;
+        padding-top: 10%;
+        text-decoration: underline;
+    }
+    #filler p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-family: 'body', serif;
+    }
+    #filler p a {
+        font-family: 'link', serif;
+        font-size: 2.2em;
+        color: red;
+        font-style: italic;
+    }
+    #filler p a:hover {
+        background-color: #0e5813;
+        color: #ffffff;
+    }
 }
 @media screen and (min-width: 1000px) {
 
