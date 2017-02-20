@@ -295,4 +295,8 @@
         width: 100%;
         clear: both;
     }
+    footer {
+        font-size: 1em;
+        font-weight: bold;
+    }
 }
