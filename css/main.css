@@ -239,4 +239,40 @@
         letter-spacing: 0.1em;
         color: #e7e7e7;
     }
+    #colors {
+        padding-bottom: 12%;
+    }
+    #colors h2 {
+        font-size: 2.3em;
+    }
+    #colors p {
+        font-size: 1.1em;
+    }
+    #colorWhite {
+        width: 15%;
+        padding: 2%;
+        border: 0.1em solid #000000;
+    }
+    #colorTan {
+        width: 15%;
+        padding: 2%;
+        margin-left: 0.5%;
+    }
+    #colorGray {
+        width: 15%;
+        padding: 2%;
+        margin-left: 0.5%;
+    }
+    #colorBrown {
+        width: 15%;
+        color: #ffffff;
+        padding: 2%;
+        margin-left: 0.5%;
+    }
+    #colorBlack {
+        width: 15%;
+        color: #ffffff;
+        padding: 2%;
+        margin-left: 0.5%;
+    }
 }
