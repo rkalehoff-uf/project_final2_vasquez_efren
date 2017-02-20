@@ -163,6 +163,10 @@
         padding-top: 3%;
         text-decoration: underline;
     }
+    #buttons h3 {
+        font-family: 'headerfont', sans-serif;
+        text-decoration: underline;
+    }
     #buttons img {
         width: 30%;
         margin-left: auto;
