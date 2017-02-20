@@ -33,8 +33,10 @@
     }
     #logo h2 {
         font-family: 'logo', sans-serif;
+        font-size: 1.2em;
+        top: 0;
+        right: 0;
         position: absolute;
-        padding-top: 20%;
     }
     nav ul {
         text-align: center;
@@ -237,9 +239,8 @@
         margin-left: 10%;
     }
     #logo h2 {
-        font-family: 'logo', sans-serif;
-        position: absolute;
-        padding-top: 8%;
+        font-size: 2em;
+        padding-right: 5%;
     }
     nav ul {
         width: 100%;
