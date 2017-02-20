@@ -283,4 +283,10 @@
     #filler h2 {
         font-size: 2.2em;
     }
+    #images {
+        width: 49%;
+        padding-bottom: 10%;
+        display: inline-block;
+        float: right;
+    }
 }
