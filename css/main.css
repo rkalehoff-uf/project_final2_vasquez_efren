@@ -209,5 +209,34 @@
     }
 }
 @media screen and (min-width: 1000px) {
-
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        background-color: #e7e7e7;
+    }
+    header {
+        border-bottom: solid 0.5em #0e5813;
+        background-size: cover;
+    }
+    #logo {
+        background-image: url(../img/logo.png);
+        background-size: 100%;
+        width: 30%;
+        background-repeat: no-repeat;
+        padding-bottom: 8%;
+        margin-left: 10%;
+    }
+    nav ul {
+        text-align: right;
+        width: 100%;
+        position: relative;
+        float: right;
+    }
+    nav ul li {
+        font-size: 2.3em;
+        text-shadow: -2px -2px 8px #000000;
+        letter-spacing: 0.1em;
+        color: #e7e7e7;
+    }
 }
