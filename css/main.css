@@ -289,4 +289,10 @@
         display: inline-block;
         float: right;
     }
+    #buttons {
+        background-color: #ffffff;
+        padding: 5%;
+        width: 100%;
+        clear: both;
+    }
 }
