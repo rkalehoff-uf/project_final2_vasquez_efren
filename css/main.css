@@ -220,6 +220,17 @@ footer {
     padding: 1% 0%;
 }
 
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
 @media screen and (min-width: 1000px) {
     main {
         margin-left: auto;
