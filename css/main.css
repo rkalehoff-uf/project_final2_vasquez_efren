@@ -231,6 +231,7 @@ footer {
     width: 1px;
     white-space: nowrap; /* 1 */
 }
+
 @media screen and (min-width: 1000px) {
     main {
         margin-left: auto;
