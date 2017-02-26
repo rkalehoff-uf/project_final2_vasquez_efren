@@ -9,7 +9,21 @@ For this assignment we were required to design and develop a style tile and styl
 * [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fefrenvasquez.com%2Fproject_final2_vasquez_efren%2F)
 
 ## Resources
-* I did not use any resources outside of the lectures and my notes for this assignment
+* I used the visuallyhidden class from boilerplate that was discussed in one of our lectures. [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169)
+
+```
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+```
 
 ## Deductions
 * I reviewed the list of deductions for this project and in the syllabus
