@@ -14,18 +14,21 @@
     font-family: 'header';
     src: url(../font/future.ttf) format('truetype');
 }
+
 body {
     background-image: url(../img/sand.png);
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
 }
+
 header {
     width: 100%;
     border-bottom: solid 1em #0e5813;
     background-color: #e7e7e7;
     padding-top: 2%;
 }
+
 #logo {
     background-image: url(../img/logo3.png);
     background-size: 100%;
@@ -35,6 +38,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
 #logo h2 {
     font-family: 'logo', sans-serif;
     font-size: 1.2em;
@@ -43,11 +47,13 @@ header {
     position: absolute;
     padding-right: 5%;
 }
+
 nav ul {
     list-style-type: none;
 }
+
 nav ul li {
-    font-size: 2.0em;
+    font-size: 2em;
     font-family: 'headerfont', sans-serif;
     letter-spacing: 0.1em;
     padding: 0% 2%;
@@ -55,10 +61,12 @@ nav ul li {
     width: 92%;
     text-decoration: none;
 }
+
 nav ul li:hover {
     color: #ffffff;
     background-color: #0e5813;
 }
+
 #colors {
     width: 80%;
     margin-left: auto;
@@ -68,6 +76,7 @@ nav ul li:hover {
     padding: 5%;
     background-color: #ffffff;
 }
+
 #colors h2 {
     color: #000000;
     padding-bottom: 1%;
@@ -75,6 +84,7 @@ nav ul li:hover {
     font-size: 2.8em;
     text-align: center;
 }
+
 #colorWhite {
     width: 19%;
     background-color: #ffffff;
@@ -82,6 +92,7 @@ nav ul li:hover {
     padding: 7% 0%;
     display: inline-block;
 }
+
 #colorTan {
     width: 19%;
     background-color: #e7e7e7;
@@ -89,6 +100,7 @@ nav ul li:hover {
     padding: 7% 0%;
     display: inline-block;
 }
+
 #colorGray {
     width: 19%;
     background-color: #d0d0d0;
@@ -96,6 +108,7 @@ nav ul li:hover {
     padding: 7% 0%;
     display: inline-block;
 }
+
 #colorBrown {
     width: 19%;
     background-color: #0e5813;
@@ -104,6 +117,7 @@ nav ul li:hover {
     padding: 7% 0%;
     display: inline-block;
 }
+
 #colorBlack {
     width: 19%;
     background-color: #000000;
@@ -112,11 +126,13 @@ nav ul li:hover {
     padding: 7% 0%;
     display: inline-block;
 }
+
 #filler {
     background-color: #e7e7e7;
     padding-bottom: 5%;
     margin: 3% 0;
 }
+
 #filler h1 {
     font-family: 'header', sans-serif;
     font-size: 2.2em;
@@ -125,6 +141,7 @@ nav ul li:hover {
     font-weight: bolder;
     padding-top: 10%;
 }
+
 #filler p {
     width: 80%;
     margin-left: auto;
@@ -132,55 +149,65 @@ nav ul li:hover {
     display: block;
     font-family: 'body', serif;
 }
+
 #filler p a {
     font-family: 'link', serif;
     font-size: 2.2em;
     color: red;
     font-style: italic;
 }
+
 #filler p a:hover {
     background-color: #0e5813;
     color: #ffffff;
 }
+
 #images {
     background-color: #d0d0d0;
     padding: 5% 0%;
     text-align: center;
     margin-bottom: 3%;
 }
+
 #images h2 {
     font-family: 'headerfont', sans-serif;
     font-size: 2.8em;
     text-align: center;
 }
+
 #images img {
     border: solid 1em #000000;
     margin-bottom: 2%;
     width: 80%;
 }
+
 #buttons {
     background-color: #e7e7e7;
     padding: 5% 0%;
     text-align: center;
     margin-bottom: 3%;
 }
+
 #buttons h2 {
     font-family: 'headerfont', sans-serif;
     font-size: 2.3em;
     text-align: center;
     padding-top: 3%;
 }
+
 #buttons h3 {
     font-family: 'headerfont', sans-serif;
     text-decoration: underline;
 
 }
+
 #buttons img {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
 #droid {
     background-image: url(../img/droid.png);
     background-size: 100%;
@@ -190,9 +217,11 @@ nav ul li:hover {
     width: 10%;
     display: inline-block;
 }
+
 #droid:hover {
     background-image: url(../img/droidhover.png);
 }
+
 #tattoine {
     background-image: url(../img/tattoine.png);
     background-size: 100%;
@@ -201,9 +230,11 @@ nav ul li:hover {
     width: 15%;
     display: inline-block;
 }
+
 #tattoine:hover {
     background-image: url(../img/tattoine2.png);
 }
+
 #contact {
     background-image: url(../img/contact.png);
     background-size: 100%;
@@ -213,9 +244,11 @@ nav ul li:hover {
     width: 20%;
     display: inline-block;
 }
+
 #contact:hover {
     background-image: url(../img/contacthover.png);
 }
+
 footer {
     background-color: #0e5813;
     color: #e7e7e7;
