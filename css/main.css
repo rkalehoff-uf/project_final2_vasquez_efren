@@ -115,6 +115,7 @@ nav ul li:hover {
 #filler {
     background-color: #e7e7e7;
     padding-bottom: 5%;
+    margin: 3% 0;
 }
 #filler h1 {
     font-family: 'header', sans-serif;
@@ -145,6 +146,7 @@ nav ul li:hover {
     background-color: #d0d0d0;
     padding: 5% 0%;
     text-align: center;
+    margin-bottom: 3%;
 }
 #images h2 {
     font-family: 'headerfont', sans-serif;
@@ -160,6 +162,7 @@ nav ul li:hover {
     background-color: #e7e7e7;
     padding: 5% 0%;
     text-align: center;
+    margin-bottom: 3%;
 }
 #buttons h2 {
     font-family: 'headerfont', sans-serif;
@@ -242,6 +245,10 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    #logo {
+        width: 25%;
+        padding-bottom: 22%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -260,14 +267,15 @@ footer {
         background-size: 100%;
         width: 30%;
         background-repeat: no-repeat;
-        padding-bottom: 8%;
+        padding-bottom: 10%;
         margin-left: 10%;
     }
     #logo h2 {
         font-size: 2em;
     }
     #colors {
-        padding-bottom: 12%;
+        width: 100%;
+        padding: 0 0 2%;
     }
     #colors h2 {
         font-size: 2.3em;
@@ -306,19 +314,21 @@ footer {
         width: 49%;
         float: left;
         clear: both;
+        padding-bottom: 0;
     }
     #filler h2 {
         font-size: 2.2em;
     }
     #images {
         width: 49%;
-        padding-bottom: 10%;
+        padding-bottom: 20%;
         display: inline-block;
         float: right;
+        margin-bottom: 0%;
     }
     #buttons {
         background-color: #ffffff;
-        padding: 5%;
+        padding: 0;
         width: 100%;
         clear: both;
     }
