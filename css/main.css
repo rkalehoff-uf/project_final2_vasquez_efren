@@ -43,8 +43,9 @@ nav ul {
 }
 nav ul li {
     display: inline;
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-family: 'headerfont', sans-serif;
+    letter-spacing: .1em;
     padding: 0% 2%;
     color: #0e5813;
 }
@@ -63,7 +64,7 @@ nav ul li:hover {
 #colors h2 {
     color: #000000;
     padding-bottom: 1%;
-    font-family: 'header', sans-serif;
+    font-family: 'headerfont', sans-serif;
     font-size: 2.8em;
     text-align: center;
 }
@@ -142,7 +143,6 @@ nav ul li:hover {
     font-family: 'headerfont', sans-serif;
     font-size: 2.8em;
     text-align: center;
-    text-decoration: underline;
 }
 #images img {
     border: solid 1em #000000;
@@ -156,11 +156,9 @@ nav ul li:hover {
 }
 #buttons h2 {
     font-family: 'headerfont', sans-serif;
-    font-size: 2.0em;
+    font-size: 2.3em;
     text-align: center;
-    letter-spacing: 0.3em;
     padding-top: 3%;
-    text-decoration: underline;
 }
 #buttons h3 {
     font-family: 'headerfont', sans-serif;
@@ -267,8 +265,8 @@ footer {
     nav ul li {
         font-size: 2.3em;
         text-shadow: -2px -2px 8px #000000;
-        letter-spacing: 0.1em;
         color: #e7e7e7;
+        letter-spacing: .1em;
     }
     #colors {
         padding-bottom: 12%;
