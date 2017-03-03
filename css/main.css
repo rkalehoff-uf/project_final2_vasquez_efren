@@ -137,6 +137,7 @@ nav ul li:hover {
 #images {
     background-color: #d0d0d0;
     padding: 5% 0%;
+    text-align: center;
 }
 #images h2 {
     font-family: 'headerfont', sans-serif;
@@ -145,11 +146,8 @@ nav ul li:hover {
     text-decoration: underline;
 }
 #images img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 2%;
     border: solid 1em #000000;
+    margin-bottom: 2%;
     width: 80%;
 }
 #buttons {
