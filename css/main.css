@@ -14,7 +14,12 @@
     font-family: 'header';
     src: url(../font/future.ttf) format('truetype');
 }
-
+body {
+    background-image: url(../img/sand.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 header {
     width: 100%;
     border-bottom: solid 1em #0e5813;
