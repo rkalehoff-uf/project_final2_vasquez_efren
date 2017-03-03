@@ -1,10 +1,6 @@
 @font-face {
     font-family: 'headerfont';
-    src: url(../font/part-two.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'logo';
-    src: url(../font/cowboy.otf) format('opentype');
+    src: url(../font/insane.ttf) format('truetype');
 }
 @font-face {
     font-family: 'body';
@@ -13,6 +9,10 @@
 @font-face {
     font-family: 'link';
     src: url(../font/oldtown.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'header';
+    src: url(../font/future.ttf) format('truetype');
 }
 
 header {
@@ -63,10 +63,9 @@ nav ul li:hover {
 #colors h2 {
     color: #000000;
     padding-bottom: 1%;
-    font-family: 'logo', sans-serif;
+    font-family: 'header', sans-serif;
     font-size: 2.8em;
     text-align: center;
-    text-decoration: underline;
 }
 #colorWhite {
     width: 19%;
@@ -110,12 +109,12 @@ nav ul li:hover {
     padding-bottom: 5%;
 }
 #filler h1 {
-    font-family: 'logo', sans-serif;
+    font-family: 'header', sans-serif;
     font-size: 2.2em;
     text-align: center;
     letter-spacing: 0.3em;
+    font-weight: bolder;
     padding-top: 10%;
-    text-decoration: underline;
 }
 #filler p {
     width: 80%;
