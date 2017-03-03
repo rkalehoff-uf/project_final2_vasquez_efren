@@ -275,7 +275,7 @@ footer {
     }
     #colors {
         width: 100%;
-        padding: 0 0 2%;
+        padding: 2% 0 2% 0;
     }
     #colors h2 {
         font-size: 2.3em;
@@ -328,7 +328,7 @@ footer {
     }
     #buttons {
         background-color: #ffffff;
-        padding: 0;
+        padding: 0 0 3% 0;
         width: 100%;
         clear: both;
     }
